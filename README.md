@@ -1,24 +1,7 @@
-# simple_calculator
+This is a smple calculator application with vue.js.
+It is open for recommendations and contributions to 
+the features I didn't add.
 
-## Project setup
-```
-npm install
-```
+This application is created to get myself acclimatized with vue.Js syntax and functionality.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+cheers...
