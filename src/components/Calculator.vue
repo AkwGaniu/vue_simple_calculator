@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <span class="ans"> {{ ans || 0 }} </span>
+    <button class="ans"> {{ ans || 0 }} </button>
     <button @click="clear">AC</button>
     <button @click="AddSign">+/-</button>
     <button @click="findPercentage">%</button>
@@ -100,16 +100,11 @@ export default {
 <style scoped>
 .container {
   width: 40%;
+  height: 573px;
   margin: 0px auto;
   display:grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-auto-rows: minmax('50px', auto);
-}
-
-@media (max-width: 768px) {
-  .container {
-    width: 100%
-  }
+  grid-auto-rows: minmax('50px', ato);
 }
 
 .container button {
@@ -140,4 +135,13 @@ export default {
   background: orange;
 }
 
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%
+  }
+  .ans {
+    padding: 50px 5px 20px 5px;
+  }
+}
 </style>

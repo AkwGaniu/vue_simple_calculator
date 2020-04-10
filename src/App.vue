@@ -1,16 +1,18 @@
 <template>
   <div id="app">
     <calculator />
+    <appFooter />
   </div>
 </template>
 
 <script>
 import calculator from './components/Calculator.vue'
-
+import appFooter from './components/appFooter.vue'
 export default {
   name: 'App',
   components: {
-    calculator
+    calculator,
+    appFooter
   }
 }
 </script>
@@ -24,7 +26,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 0px;
 }
 
 @media (max-width: 768px) {
